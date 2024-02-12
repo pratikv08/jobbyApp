@@ -1,0 +1,11 @@
+.type-container {
+  display: flex;
+  align-items: center;
+}
+.type-label {
+  color: white;
+  margin: 5px 10px;
+}
+.checkbox {
+  cursor: pointer;
+}

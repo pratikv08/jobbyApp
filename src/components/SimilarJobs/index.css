@@ -1,0 +1,127 @@
+.sim-each-job {
+  color: white;
+  background-color: #202020;
+  padding: 10px 20px 20px 20px;
+  margin-bottom: 15px;
+  border-radius: 14px;
+  font-family: 'Roboto';
+}
+.sim-img-rating-container {
+  display: flex;
+  align-items: center;
+}
+.sim-company-img {
+  width: 44px;
+  margin-right: 10px;
+}
+.sim-star-rating-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 6px;
+}
+.sim-title {
+  margin-bottom: 0px;
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.sim-star {
+  color: orange;
+  margin-right: 5px;
+  margin-top: 3px;
+  font-size: 13px;
+}
+.sim-rating {
+  margin-top: 2px;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.sim-location-emptype-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sim-loc-emp-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.sim-loc-emp-icon {
+  margin-right: 3px;
+}
+.sim-loc-emp-text {
+  color: #cbd5e1;
+  font-size: 13px;
+}
+.sim-loc-emp-sub-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.sim-description-text {
+  color: white;
+  font-size: 14px;
+}
+
+.sim-job-description {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.7;
+}
+@media screen and (min-width: 576px) {
+  .sim-each-job {
+     padding: 22px 20px 21px 20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    margin-right: 20px;
+    min-width: 270px;
+    max-width: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sim-each-job {
+    padding: 25px 27px 24px 27px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    margin-right: 40px;
+    min-width: 350px;
+    max-width: 450px;
+  }
+  .sim-company-img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  .sim-star-rating-container {
+    margin-top: 6px;
+  }
+  .sim-title {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 21px;
+  }
+  .sim-star {
+    margin-right: 5px;
+    margin-top: 3px;
+    font-size: 18px;
+  }
+  .sim-rating {
+    margin-top: 2px;
+    font-size: 18px;
+  }
+  .sim-loc-emp-icon {
+    font-size: 23px;
+    margin-right: 5px;
+  }
+  .sim-loc-emp-text {
+    font-size: 18px;
+  }
+  .sim-loc-emp-sub-container {
+    margin-right: 20px;
+  }
+  .sim-description-text {
+    font-size: 23px;
+  }
+  .sim-job-description {
+    font-size: 18px;
+  }
+}

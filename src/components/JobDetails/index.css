@@ -1,0 +1,126 @@
+.each-job {
+  color: white;
+  background-color: #202020;
+  padding: 10px 20px 20px 20px;
+  margin-bottom: 15px;
+  border-radius: 14px;
+  font-family: 'Roboto';
+}
+.each-job-sub-container {
+  border-bottom: 1px solid gray;
+}
+.img-rating-container {
+  display: flex;
+  align-items: center;
+}
+.company-img {
+  width: 44px;
+  margin-right: 10px;
+}
+.title-rating-container {
+}
+.star-rating-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 6px;
+}
+.title {
+  margin-bottom: 0px;
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.star {
+  color: orange;
+  margin-right: 5px;
+  margin-top: 3px;
+  font-size: 13px;
+}
+.rating {
+  margin-top: 2px;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.location-emptype-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loc-emp-container {
+  display: flex;
+  align-items: center;
+}
+.loc-emp-icon {
+  margin-right: 3px;
+}
+.loc-emp-text {
+  color: #cbd5e1;
+  font-size: 13px;
+}
+.package {
+  color: #cbd5e1;
+  font-size: 13px;
+}
+.loc-emp-sub-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.description-text {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.job-description {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.7;
+}
+@media screen and (min-width: 768px) {
+  .each-job {
+    padding: 17px 23px 20px 23px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    font-family: 'Roboto';
+    margin-right: 30px;
+  }
+  .company-img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  .star-rating-container {
+    margin-top: 6px;
+  }
+  .title {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 21px;
+  }
+  .star {
+    margin-right: 5px;
+    margin-top: 3px;
+    font-size: 18px;
+  }
+  .rating {
+    margin-top: 2px;
+    font-size: 18px;
+  }
+  .loc-emp-icon {
+    font-size: 18px;
+  }
+  .loc-emp-text {
+    font-size: 15px;
+  }
+  .package {
+    font-size: 17px;
+  }
+  .loc-emp-sub-container {
+    margin-right: 10px;
+  }
+  .description-text {
+    font-size: 17px;
+  }
+  .job-description {
+    font-size: 16px;
+  }
+}
